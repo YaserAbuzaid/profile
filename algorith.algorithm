@@ -1,0 +1,52 @@
+Project Title: Interactive Portfolio Website
+Project Description:
+Create a personal portfolio website that showcases your skills, projects, and contact information. Add interactive JavaScript elements such as a navigation menu, a dynamic "Projects" section, and a working contact form.
+
+Features to Include:
+
+
+1. Navigation Bar (HTML + CSS + JavaScript):
+HTML: Create a navigation bar with links to "Home," "About Me," "Projects," and "Contact."
+CSS: Style it with a sticky header.
+JavaScript: Add smooth scrolling to the section when a user clicks a navigation link.
+
+
+2. Hero Section (HTML + CSS):
+A large header section with your name, a short description, and a "Learn More" button.
+Use CSS to add a gradient background or a hero image.
+
+
+3. Projects Section (HTML + JavaScript):
+Display projects as cards.
+JavaScript: Add a "View Details" button on each project card that shows more information when clicked.
+
+
+
+4. Light/Dark Mode Toggle (CSS + JavaScript):
+Create a toggle button to switch between light and dark themes.
+JavaScript: Update the class on the body to apply different CSS styles.
+
+
+5. Contact Form (HTML + JavaScript):
+Create a simple form with fields for Name, Email, and Message.
+JavaScript: Add form validation to ensure all fields are filled and email is valid.
+Optionally, display a "Thank You" message after submission.
+
+
+6. Footer Section (HTML + CSS):
+Include links to your social media profiles styled with CSS.
+
+Technical Requirements:
+HTML:
+Use semantic elements such as <header>, <main>, <section>, <footer>.
+Organize the code with proper indentation and comments.
+CSS:
+Use Flexbox or Grid for layout.
+Apply transitions or animations for hover effects.
+Include responsive design using media queries.
+JavaScript:
+Add interactivity:
+Smooth scrolling.
+Light/dark mode toggle.
+Form validation.
+

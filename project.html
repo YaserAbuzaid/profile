@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> intereactive portfolio</title>
+    <link rel="stylesheet" href="project.css">
+    <script src="https://kit.fontawesome.com/445e49b891.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="">
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="../images/logo.png" class="logo">
+                <ul id="sidemenu">
+
+                    <li> <a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                   <li> <img src="../images/sun.png" alt="" id="icon"></li>
+                    <i class="fa-solid fa-times" onclick="closemenu()"></i>
+
+                </ul><i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p class="ptag">Web Developer</p>
+                <h1 class="">Hi, I'am
+                    <span style="color: #ff004f;">Yaser</span><br>
+                    Abuzaid From Syria
+                </h1>
+            </div>
+        </div>
+    </div>
+    <!--------------- about------------>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-1">
+                    <img src="../images/user.png">
+                </div>
+                <div class="col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>👋 Hey there! I’m Yaser, a 16-year-old with a passion for all things tech and creativity. I’m a
+                        self-taught coder, and my toolbox is packed with HTML, CSS, and JavaScript—the dynamic trio of
+                        web development. Whether it’s designing sleek layouts, creating interactive features, or making
+                        websites come to life, I thrive on turning cool ideas into reality.
+
+                        💻 Coding isn’t just something I do—it’s what I LOVE. There’s something magical about writing
+                        lines of code and watching them transform into a functional, visually stunning creation. It’s
+                        like being a modern-day wizard (without the hat, but hey, I’m working on it). Challenges? Bugs?
+                        Bring them on! Debugging is just another opportunity to flex those problem-solving muscles.
+
+                        🍕 Speaking of muscles, let’s talk about the fuel behind all that brainpower—food. I’m a huge
+                        foodie, and nothing pairs better with a late-night coding session than a delicious snack (or
+                        five). I believe in balance: a little bit of creativity, a sprinkle of logic, and a generous
+                        helping of tasty treats to keep the ideas flowing.
+
+                        🌟 Life as a coder isn’t just about building things; it’s also about the journey. For me, coding
+                        is like a never-ending adventure where every new project is a fresh puzzle to solve. I love
+                        diving into the world of tech, experimenting with new designs, and learning new ways to make my
+                        work even better. And when I’m not coding, well, I’m probably daydreaming about coding—or
+                        hunting down my next favorite meal.
+
+                        🎯 My goal? To keep improving, keep creating, and maybe even inspire others along the way. I’m
+                        always excited to collaborate, share ideas, and take on challenges that push me to grow. So
+                        whether it’s building a website, brainstorming cool new concepts, or simply bonding over our
+                        love for food and tech, I’m here for it.
+
+                        Let’s make something extraordinary together—because with enough code (and snacks), anything is
+                        possible! 🚀
+
+                    </p>
+
+                    <div class="tab-titals">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>JS/HTML/CSS</span><br> Creating Responsive websites</li>
+                            <li><span>LUNA RBLX Studio</span><br> Creating Fun And Great Roblox Games</li>
+                            <li><span>Game development</span><br> Creating Fun And functional Games With Unity</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>2022 - Current</span><br> creating Games With C# Unity / Web Development</li>
+                            <li><span>2019 - 2022</span><br> Creating Fun And Great Roblox Games</li>
+                            <li><span>2017 - 2019</span><br> Creating Games With Scratch</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2020</span><br> Started C3 And Got A Degree From 6WRNI An Arabic BootCamb</li>
+                            <li><span>2022</span><br> Mastered Roblox Game Development With Udemy Courses</li>
+                            <li><span>2024</span><br> Learning In Aptech Lekki For ADSE </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------------services---------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <h2>Web Design</h2>
+                    <p>I’m a passionate web developer with 1.5 years of experience, specializing in creating modern,
+                        responsive, and visually appealing websites that are functional, user-friendly, and tailored to
+                        your needs. 🚀</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <h2>Game Design</h2>
+                    <p>I’m a creative game designer with a knack for crafting engaging, fun, and immersive games. From
+                        mechanics to visuals, I bring ideas to life, ensuring a captivating gaming experience. 🎮
+
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <h2>Roblox Game Design</h2>
+                    <p>As an experienced Roblox game designer, I specialize in developing exciting and interactive games
+                        using LUA scripting and Roblox Studio. Let’s create something fun and unique for the Roblox
+                        community! 🚀✨</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- -----------------------portfolio--------------------- -->
+     <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="../images/work-1.png" alt="">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p> This App is used to contact with coders and programmers around the world </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                    
+                    
+                </div>
+                <div class="work">
+                    <img src="../images/work-2.png" alt="">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p> This App is used to listen to the most trending music worldwide </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="../images/work-3.png" alt="">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p> This App is used to view and shop online and choose from thousands of high end products </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn" id="seemore">See More</a>
+        </div>
+     </div>
+<!-- --------------------contact-------------------- -->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me </h1>
+                <p>
+                    <i class="fa-regular fa-paper-plane"></i>
+                    Contact@Example.com
+                </p>
+                <p> <i class="fa-solid fa-phone"></i>0123456789</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-telegram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="../images/my-cv.pdf" class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"> </span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p> copyright © to yaser abuzaid. Made with <i class="fa-solid fa-heart"></i> by Yaser </p>
+    </div>
+</div>
+
+
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link")
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0"
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px"
+        }
+
+
+
+    </script>
+    
+   
+
+    <script src="project.js"></script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbydxmC5pV-3XN_wImtnf6Qqn_b7PEnIV1bPkrtQ9BOykghqi8DwgLl6_Jw2wXNNmtMx8Q/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+
+      <script>
+        var icon = document.getElementById("icon");
+var logo = document.querySelector(".logo");
+
+icon.onclick = function () {
+    document.body.classList.toggle("light-theme");
+
+    // Change the logo dynamically
+    if (document.body.classList.contains("light-theme")) {
+        logo.src = "../images/lightlogo.png"; // Switch to light mode logo
+        icon.src = "../images/moon.png";       // Change icon to a sun
+    } else {
+        logo.src = "../images/logo.png";      // Switch back to dark mode logo
+        icon.src = "../images/sun.png";      // Change icon to a moon
+    }
+};
+      </script>
+</body>
+
+</html>
